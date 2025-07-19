@@ -4,7 +4,7 @@ export const GitHubStats = styled.div`
   margin-top: 32px;
   margin-bottom: 64px;
 
-img {
+  img {
     height: 157px;
   }
 `
