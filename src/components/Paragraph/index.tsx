@@ -7,7 +7,9 @@ export type Props = {
 }
 
 const Paragraph = ({ children, tipo = 'principal', fontSize }: Props) => (
-  <P fontSize={fontSize} tipo={tipo}>{children}</P>
+  <P fontSize={fontSize} tipo={tipo}>
+    {children}
+  </P>
 )
 
 export default Paragraph
